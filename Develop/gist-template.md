@@ -1,6 +1,6 @@
 # Phone Number Regex Tutorial
 
-Introductory paragraph (replace this with your text)
+Welcome to this regex tutorial. This will be a brief description of how the following regex works. The explanation will include the different operator types that are used in the expression, along with a brief summary describing how the regex may be used.
 
 ## Summary
 
