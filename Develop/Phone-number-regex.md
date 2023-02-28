@@ -41,7 +41,7 @@ The only flag necessary for this regex is `g`. This way, we can find multiple se
 
 ### Grouping and Capturing
 
-This regex makes use of `()` to capture the digits in the phone number, but avoids capturing characters that are not needed (such as the country code or spaces and hyphens). The regex can be used to change, find, or replace these strings that it has captured.
+This regex makes use of `()` to capture the digits in the phone number in the `(\d{3})` section, but avoids capturing characters that are not needed (such as the country code or spaces and hyphens). The regex can be used to change, find, or replace these strings that it has captured.
 
 ### Bracket Expressions
 
@@ -49,7 +49,7 @@ This regex makes use of `[]` to find any spaces or `-` in the phone number seque
 
 ### Greedy and Lazy Match
 
-The only greedy operator used in this regex is the `{}` to define and capture a set of 3 digits. This helps to find separate strings if they are broken up with spaces or hyphens, but will still find the full number in any format.
+The only greedy operator used in this regex is the `{}` to define and capture a set of 3 digits, as seen in the `(\d{3})` section. This helps to find separate strings if they are broken up with spaces or hyphens, but will still find the full number in any format.
 
 ## Author
 
