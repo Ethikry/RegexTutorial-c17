@@ -12,7 +12,6 @@ Regex means "regular expression". A regex is an expression that can be used to s
   - [Summary](#summary)
   - [Table of Contents](#table-of-contents)
   - [Regex Components](#regex-components)
-    - [Anchors](#anchors)
     - [Quantifiers](#quantifiers)
     - [OR Operator](#or-operator)
     - [Character Classes](#character-classes)
@@ -20,16 +19,9 @@ Regex means "regular expression". A regex is an expression that can be used to s
     - [Grouping and Capturing](#grouping-and-capturing)
     - [Bracket Expressions](#bracket-expressions)
     - [Greedy and Lazy Match](#greedy-and-lazy-match)
-    - [Boundaries](#boundaries)
-    - [Back-references](#back-references)
-    - [Look-ahead and Look-behind](#look-ahead-and-look-behind)
   - [Author](#author)
 
 ## Regex Components
-
-### Anchors
-
-Anchors search for text at the beginning and end of a string. The operators are `^` and `$`. However, these are not used in this regex.
 
 ### Quantifiers
 
@@ -58,18 +50,6 @@ This regex makes use of `[]` to find any spaces or `-` in the phone number seque
 ### Greedy and Lazy Match
 
 The only greedy operator used in this regex is the `{}` to define and capture a set of 3 digits.
-
-### Boundaries
-
-There are no boundaries used in this regex.
-
-### Back-references
-
-There are no back-references used in this regex.
-
-### Look-ahead and Look-behind
-
-There are no look-ahead or look-behind operators used in this regex.
 
 ## Author
 
